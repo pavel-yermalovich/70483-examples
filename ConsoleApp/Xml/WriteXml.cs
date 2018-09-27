@@ -26,5 +26,19 @@ namespace ConsoleApp.Xml
 
             Console.WriteLine(stream.ToString());
         }
+
+        public static void Example2()
+        {
+            var document = new XmlDocument();
+            document.LoadXml(ReadXml.xml);
+
+            var newNode = document.CreateNode(XmlNodeType.Element, "person", "");
+            var firstNameAttribute = document.CreateAttribute("firstname");
+            firstNameAttribute.Value = "John";
+            var lastNameAttribute = document.CreateAttribute("lastname");
+            lastNameAttribute.Value = "Smith";
+
+            document.DocumentElement.AppendChild(newNode);
+        }
     }
 }
