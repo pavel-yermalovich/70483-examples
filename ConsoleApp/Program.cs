@@ -1,4 +1,5 @@
 ﻿using ConsoleApp.CSharp7;
+using ConsoleApp.Reflection;
 using ConsoleApp.Xml;
 
 namespace ConsoleApp
@@ -19,6 +20,8 @@ namespace ConsoleApp
 
             PatternVariables.Example1();
             PatternVariables.Example2();
+
+            SetProperties.Example1();
         }
     }
 }
