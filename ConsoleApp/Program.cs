@@ -1,4 +1,5 @@
-﻿using ConsoleApp.CSharp7;
+﻿using ConsoleApp.CSharp6;
+using ConsoleApp.CSharp7;
 using ConsoleApp.Reflection;
 using ConsoleApp.Xml;
 
@@ -8,20 +9,22 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
-            // Read xml with XmlReader
-            ReadXml.Example1();
-            // Reads xml via XmlDocument
-            ReadXml.Example2();
-            // Query data via XPath query
-            ReadXml.Example3();
+            //// Read xml with XmlReader
+            //ReadXml.Example1();
+            //// Reads xml via XmlDocument
+            //ReadXml.Example2();
+            //// Query data via XPath query
+            //ReadXml.Example3();
 
-            // How to use XmlWriter to create an xml document
-            WriteXml.Example1();
+            //// How to use XmlWriter to create an xml document
+            //WriteXml.Example1();
 
-            PatternVariables.Example1();
-            PatternVariables.Example2();
+            //PatternVariables.Example1();
+            //PatternVariables.Example2();
 
-            SetProperties.Example1();
+            //SetProperties.Example1();
+
+            CollectionInitializers.Example1();
         }
     }
 }
