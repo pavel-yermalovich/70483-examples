@@ -1,7 +1,0 @@
-D:\Repos\Exam70483\ConsoleApp\bin\Release\ConsoleApp.exe.config
-D:\Repos\Exam70483\ConsoleApp\bin\Release\ConsoleApp.exe
-D:\Repos\Exam70483\ConsoleApp\bin\Release\ConsoleApp.pdb
-D:\Repos\Exam70483\ConsoleApp\obj\Release\ConsoleApp.csprojAssemblyReference.cache
-D:\Repos\Exam70483\ConsoleApp\obj\Release\ConsoleApp.csproj.CoreCompileInputs.cache
-D:\Repos\Exam70483\ConsoleApp\obj\Release\ConsoleApp.exe
-D:\Repos\Exam70483\ConsoleApp\obj\Release\ConsoleApp.pdb

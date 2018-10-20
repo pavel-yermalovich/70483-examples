@@ -47,6 +47,8 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Reflection\SetProperties.cs" />
+    <Compile Include="Serialization\BinaryFormatterExamples.cs" />
+    <Compile Include="Serialization\XmlSerializerExamples.cs" />
     <Compile Include="Xml\ReadXml.cs" />
     <Compile Include="Xml\WriteXml.cs" />
   </ItemGroup>
